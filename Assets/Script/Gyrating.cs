@@ -20,6 +20,8 @@ public class Gyrating : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
+		//GameObject oya = gameObject.transform.parent.gameObject;
+
 		switch(step){
 		case 1:
 			if (transform.position.y <= 1 && transform.position.x <= 4)
