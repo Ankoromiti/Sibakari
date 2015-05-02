@@ -4,6 +4,7 @@ using System.Collections;
 public class Goal : MonoBehaviour {
 
 	public static int kusacount;
+	public int number;
 
 	void Start()
 	{
@@ -15,6 +16,7 @@ public class Goal : MonoBehaviour {
 		kusacount = GameObject.FindGameObjectsWithTag ("KUSA").Length;
 		if (kusacount <= 0) {
 			//Application.LoadLevel ("goal");
+			Flag_Manager.SetFlag(number ,true);
 			Application.LoadLevel ("StageSerect");
 		}
 	}

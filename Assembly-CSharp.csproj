@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{4DE73391-6D62-D74A-4C40-2AA91E1B4BFB}</ProjectGuid>
+	<ProjectGuid>{AB47B782-1985-E95B-428C-8D66A9264954}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -47,12 +47,22 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\ClickCheack.cs" />
+     <Compile Include="Assets\Script\Constant.cs" />
+     <Compile Include="Assets\Script\Flag_Manager.cs" />
      <Compile Include="Assets\Script\Goal.cs" />
      <Compile Include="Assets\Script\Gyrating.cs" />
+     <Compile Include="Assets\Script\Jimen.cs" />
      <Compile Include="Assets\Script\Kusa.cs" />
+     <Compile Include="Assets\Script\LeafEffect.cs" />
+     <Compile Include="Assets\Script\LeftArrow.cs" />
+     <Compile Include="Assets\Script\Manager.cs" />
      <Compile Include="Assets\Script\Player.cs" />
+     <Compile Include="Assets\Script\QED.cs" />
+     <Compile Include="Assets\Script\RightArrow.cs" />
      <Compile Include="Assets\Script\Scroll.cs" />
      <Compile Include="Assets\Script\TitleMenu.cs" />
+     <Compile Include="Assets\Script\drill.cs" />
+     <Compile Include="Assets\Script\menu.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
