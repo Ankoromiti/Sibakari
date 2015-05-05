@@ -115,10 +115,17 @@ public class Player : MonoBehaviour
                 //transform.Rotate(new Vector3(11f,0f,0f));
                 //GetComponent<Rigidbody>().angularVelocity =new Vector3(5f,0f,0f);
                 //transform.RotateAround(new Vector3 (0,5.15f,1), transform.right, 0.8f);
+<<<<<<< HEAD
 			transform.position += new Vector3(0f, 0.00f, 0.002f);
                 transform.RotateAround(keeppos, transform.right, 10f);
 
               
+=======
+
+                transform.RotateAround(keeppos, transform.right, 10f);
+
+                transform.position += new Vector3(0f, 0.00f, 0.002f);
+>>>>>>> origin/matuo
                 //transform.position.x=keeppos;
                 break;
             case Turningtype.down:

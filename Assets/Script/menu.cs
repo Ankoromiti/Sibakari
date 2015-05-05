@@ -119,7 +119,10 @@ public class menu : MonoBehaviour {
 			break;
 		case 3:
 			//Application.Quit();
+<<<<<<< HEAD
 			mf = false;
+=======
+>>>>>>> origin/matuo
 			Application.LoadLevel("StageSerect");
 			break;
 			default:
