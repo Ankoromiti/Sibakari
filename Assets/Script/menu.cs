@@ -5,34 +5,34 @@ public class menu : MonoBehaviour {
 	public static bool mf;
 	public int num;
 	public GameObject f;
-
+	
 	void OnMouseDown() {
 		switch (num) 
-        {
+		{
 		case 0:
 			Instantiate (f, new Vector3 (0, 0, -1000), Quaternion.identity);
-
+			
 			GameObject Menu = GameObject.Find ("menu");
-    		Vector3 mv = Menu.transform.position;
-   			mv.x = 10;
-   			mf = true;
-    		Menu.transform.position = mv;
-    		GameObject Saisyokara = GameObject.Find ("saisyokara");
-    		Vector3 sv = Saisyokara.transform.position;
-    		sv.x = 0.25f;
-    		Saisyokara.transform.position = sv;
-    		GameObject Modoru = GameObject.Find ("modoru");
-    		Vector3 mov = Modoru.transform.position;
-    		mov.x = 0.53f;
-    		Modoru.transform.position = mov;
-    		GameObject Yameru = GameObject.Find ("yameru");
-    		Vector3 yav = Yameru.transform.position;
-    		yav.x = 0.8f;
-    		Yameru.transform.position = yav;
-            break;
+			Vector3 mv = Menu.transform.position;
+			mv.x = 10;
+			mf = true;
+			Menu.transform.position = mv;
+			GameObject Saisyokara = GameObject.Find ("saisyokara");
+			Vector3 sv = Saisyokara.transform.position;
+			sv.x = 0.25f;
+			Saisyokara.transform.position = sv;
+			GameObject Modoru = GameObject.Find ("modoru");
+			Vector3 mov = Modoru.transform.position;
+			mov.x = 0.53f;
+			Modoru.transform.position = mov;
+			GameObject Yameru = GameObject.Find ("yameru");
+			Vector3 yav = Yameru.transform.position;
+			yav.x = 0.8f;
+			Yameru.transform.position = yav;
+			break;
 		case 1:
 			mf = false;
-				if(Application.loadedLevelName == "stage1")Application.LoadLevel("stage1");
+			if(Application.loadedLevelName == "stage1")Application.LoadLevel("stage1");
 			else
 				if(Application.loadedLevelName == "stage2")Application.LoadLevel("stage2");
 			else
@@ -96,10 +96,10 @@ public class menu : MonoBehaviour {
 			break;
 		case 2:
 			mf = false;
-
+			
 			GameObject ffff = GameObject.Find("blackfilter(Clone)");
 			Destroy(ffff);
-
+			
 			GameObject Me = GameObject.Find("menu");
 			Vector3 me = Me.transform.position;
 			me.x = 0.9f;
@@ -119,15 +119,12 @@ public class menu : MonoBehaviour {
 			break;
 		case 3:
 			//Application.Quit();
-<<<<<<< HEAD
 			mf = false;
-=======
->>>>>>> origin/matuo
 			Application.LoadLevel("StageSerect");
 			break;
-			default:
+		default:
 			break;
 		}
 	}
-
+	
 }

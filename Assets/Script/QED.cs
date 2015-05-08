@@ -10,11 +10,8 @@ public class QED : MonoBehaviour {
 	//public Texture Tex2;
 
 	// Use this for initialization
-<<<<<<< HEAD
+
 	public void Start () 
-=======
-	void Start () 
->>>>>>> origin/matuo
 	{
 		if (clear) {
 			gameObject.GetComponent<GUITexture> ().texture = Tex;
